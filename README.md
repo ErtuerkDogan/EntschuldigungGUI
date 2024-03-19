@@ -1,0 +1,2 @@
+# EntschuldigungGUI
+Automatisch Entschuldigungen Schreiben
