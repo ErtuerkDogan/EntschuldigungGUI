@@ -1,0 +1,16 @@
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\bin\Debug\net6.0-windows\Entschuldigungswriter.exe
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\bin\Debug\net6.0-windows\Entschuldigungswriter.deps.json
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\bin\Debug\net6.0-windows\Entschuldigungswriter.runtimeconfig.json
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\bin\Debug\net6.0-windows\Entschuldigungswriter.dll
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\bin\Debug\net6.0-windows\Entschuldigungswriter.pdb
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.csproj.GenerateResource.cache
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.AssemblyInfoInputs.cache
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.AssemblyInfo.cs
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.csproj.CoreCompileInputs.cache
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.dll
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\refint\Entschuldigungswriter.dll
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.pdb
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.genruntimeconfig.cache
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\ref\Entschuldigungswriter.dll
+C:\Users\Dodo\Desktop\Entschuldigungswriter\Entschuldigungswriter\obj\Debug\net6.0-windows\Entschuldigungswriter.FrmGenerieren.resources
