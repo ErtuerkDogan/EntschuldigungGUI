@@ -33,6 +33,8 @@
             btnZuruck1 = new Button();
             lblGeneriert = new Label();
             tabPage1 = new TabPage();
+            btnLeeren = new Button();
+            cbxLight = new CheckBox();
             btnLos = new Button();
             tbxGrund = new TextBox();
             btnGenerieren = new Button();
@@ -109,6 +111,8 @@
             // 
             tabPage1.AccessibleRole = AccessibleRole.None;
             tabPage1.BackColor = Color.FromArgb(64, 64, 64);
+            tabPage1.Controls.Add(btnLeeren);
+            tabPage1.Controls.Add(cbxLight);
             tabPage1.Controls.Add(btnLos);
             tabPage1.Controls.Add(tbxGrund);
             tabPage1.Controls.Add(btnGenerieren);
@@ -122,17 +126,41 @@
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(586, 477);
+            tabPage1.Size = new Size(586, 515);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Generieren";
+            // 
+            // btnLeeren
+            // 
+            btnLeeren.BackColor = Color.FromArgb(64, 64, 64);
+            btnLeeren.ForeColor = Color.White;
+            btnLeeren.Location = new Point(275, 111);
+            btnLeeren.Name = "btnLeeren";
+            btnLeeren.Size = new Size(97, 39);
+            btnLeeren.TabIndex = 12;
+            btnLeeren.Text = "Leeren";
+            btnLeeren.UseVisualStyleBackColor = false;
+            btnLeeren.Click += btnLeeren_Click;
+            // 
+            // cbxLight
+            // 
+            cbxLight.AutoSize = true;
+            cbxLight.ForeColor = Color.White;
+            cbxLight.Location = new Point(450, 15);
+            cbxLight.Name = "cbxLight";
+            cbxLight.Size = new Size(87, 19);
+            cbxLight.TabIndex = 11;
+            cbxLight.Text = "Light Mode";
+            cbxLight.UseVisualStyleBackColor = true;
+            cbxLight.CheckedChanged += cbxLight_CheckedChanged;
             // 
             // btnLos
             // 
             btnLos.BackColor = Color.FromArgb(64, 64, 64);
             btnLos.ForeColor = Color.White;
-            btnLos.Location = new Point(231, 348);
+            btnLos.Location = new Point(231, 341);
             btnLos.Name = "btnLos";
-            btnLos.Size = new Size(171, 23);
+            btnLos.Size = new Size(175, 31);
             btnLos.TabIndex = 10;
             btnLos.Text = "Lehrer o. Schüler editieren";
             btnLos.UseVisualStyleBackColor = false;
@@ -154,7 +182,7 @@
             btnGenerieren.ForeColor = Color.White;
             btnGenerieren.Location = new Point(231, 274);
             btnGenerieren.Name = "btnGenerieren";
-            btnGenerieren.Size = new Size(88, 43);
+            btnGenerieren.Size = new Size(115, 41);
             btnGenerieren.TabIndex = 9;
             btnGenerieren.Text = "Generieren";
             btnGenerieren.UseVisualStyleBackColor = false;
@@ -180,11 +208,11 @@
             dtpBis.Checked = false;
             dtpBis.CustomFormat = " ";
             dtpBis.Format = DateTimePickerFormat.Custom;
-            dtpBis.Location = new Point(164, 117);
+            dtpBis.Location = new Point(147, 117);
             dtpBis.MaxDate = new DateTime(2040, 12, 31, 0, 0, 0, 0);
             dtpBis.MinDate = new DateTime(2020, 12, 31, 0, 0, 0, 0);
             dtpBis.Name = "dtpBis";
-            dtpBis.Size = new Size(96, 23);
+            dtpBis.Size = new Size(113, 23);
             dtpBis.TabIndex = 8;
             dtpBis.ValueChanged += dtpBis_ValueChanged;
             // 
@@ -221,7 +249,7 @@
             dtpVon.MaxDate = new DateTime(2040, 12, 31, 0, 0, 0, 0);
             dtpVon.MinDate = new DateTime(2020, 12, 31, 0, 0, 0, 0);
             dtpVon.Name = "dtpVon";
-            dtpVon.Size = new Size(96, 23);
+            dtpVon.Size = new Size(113, 23);
             dtpVon.TabIndex = 3;
             dtpVon.ValueChanged += dtpVon_ValueChanged;
             // 
@@ -253,10 +281,10 @@
             tbcSGL.Controls.Add(tabPage2);
             tbcSGL.Controls.Add(tabPage3);
             tbcSGL.ImeMode = ImeMode.NoControl;
-            tbcSGL.Location = new Point(-5, 12);
+            tbcSGL.Location = new Point(-5, -26);
             tbcSGL.Name = "tbcSGL";
             tbcSGL.SelectedIndex = 0;
-            tbcSGL.Size = new Size(594, 505);
+            tbcSGL.Size = new Size(594, 543);
             tbcSGL.TabIndex = 10;
             tbcSGL.SelectedIndexChanged += tbcSGL_SelectedIndexChanged;
             // 
@@ -388,5 +416,7 @@
         private Button btnLehrer;
         private Label lblNachname;
         private Label lblLos;
+        private CheckBox cbxLight;
+        private Button btnLeeren;
     }
 }
